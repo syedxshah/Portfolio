@@ -12,4 +12,9 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  server: {
+    allowedHosts: [
+      "devserver-main--chipper-scone-1277bb.netlify.app"
+    ]
+  }
 });
